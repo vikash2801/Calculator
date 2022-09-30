@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.calc{
+    position: absolute;
+    top: 14%;
+    left: 49%;
+}
+.calculator{
+    height: 365px;
+    width: 330px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.calculator input{
+    height: 50px;
+    width: 285px;
+    margin-left: 9px;
+}
+.calculator .button{
+    width: 60px;
+    height: 40px;
+    border: 1px solid #ced4da;
+    margin: 8px;
+    border-radius: 10px;
+}
+#equal{
+    width: 137px;
+}
+
+
+
+
