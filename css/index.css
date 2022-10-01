@@ -16,11 +16,13 @@ body{
     left: 40%;
     border: 1px solid black;
     border-radius: 4px;
+    background: grey;
 }
 .calculator input{
     height: 50px;
     width: 285px;
     margin-left: 9px;
+    text-align: right;
 }
 .calculator .button{
     width: 60px;
@@ -28,6 +30,11 @@ body{
     border: 1px solid #ced4da;
     margin: 8px;
     border-radius: 10px;
+}
+.calculator .button:active{
+    transform: scale(1.2);
+    background: black;
+    color: white;
 }
 #equal{
     width: 137px;
