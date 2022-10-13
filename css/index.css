@@ -8,7 +8,7 @@ body{
     left: 49%;
 }
 .calculator{
-    height: 365px;
+    height: 400px;
     width: 330px;
     padding: 20px;
     position: absolute;
@@ -16,7 +16,6 @@ body{
     left: 40%;
     border: 1px solid black;
     border-radius: 4px;
-    background: grey;
 }
 .calculator input{
     height: 50px;
@@ -32,7 +31,7 @@ body{
     border-radius: 10px;
 }
 .calculator .button:active{
-    transform: scale(1.2);
+    transform: scale(1);
     background: black;
     color: white;
 }
@@ -40,6 +39,22 @@ body{
     width: 137px;
 }
 
+
+@media (max-width: 900px){
+    .calculator{
+        left: 30%;
+    }
+}
+@media (max-width: 720px){
+    .calculator{
+        left: 22%;
+    }
+}
+@media (max-width: 500px){
+    .calculator{
+        left: 15%;
+    }
+}
 
 
 
